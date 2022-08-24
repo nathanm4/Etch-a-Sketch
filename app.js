@@ -11,7 +11,7 @@ for (let i = 1; i < 257; i++) {
 // hover.className = 'hover';
 
 //mouseover event
-addEventListener('mouseover', (event) => {
+gDiv.addEventListener('mouseover', (event) => {
     onmouseover = (event) => {
 
     }

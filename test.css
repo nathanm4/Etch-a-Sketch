@@ -1,0 +1,38 @@
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+input, button, select {
+    padding: 3px;
+    margin: 3px;
+}
+input {
+    width: 270px;
+}
+div#grid {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border: 3px solid #000;
+    display: grid;
+    background-color: #000;
+
+    /*grid-gap: 1px 1px;*/
+}
+.cell {
+    background-color: white;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+}
+.container {
+    margin: 10px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 30px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
