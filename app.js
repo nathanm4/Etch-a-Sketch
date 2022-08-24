@@ -6,6 +6,13 @@ for (let i = 1; i < 257; i++) {
     gDiv.appendChild(div);
 }
 
-const hover = document.createElement('div')
-gDiv.appendChild(hover);
-hover.className = 'hover';
+// const hover = document.createElement('div')
+// gDiv.appendChild(hover);
+// hover.className = 'hover';
+
+//mouseover event
+addEventListener('mouseover', (event) => {
+    onmouseover = (event) => {
+
+    }
+})
